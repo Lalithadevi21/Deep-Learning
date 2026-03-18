@@ -125,4 +125,63 @@ Convolutional Neural Network (CNN)
 ## Conclusion
 
 The CNN model successfully learns patterns from image data and classifies images with good accuracy. This project demonstrates the effectiveness of deep learning in computer vision tasks.
+---
+---
+
+
+# 3.Recurrent Neural Network (RNN)
+## Sequence Prediction
+
+## Project Overview
+
+This project uses a Recurrent Neural Network (RNN) to model and predict sequential data. RNNs are designed to capture patterns in sequences and are commonly used for time series, text, and sequential prediction tasks.
+
+## Problem Statement
+
+To build a deep learning model that can learn from sequential data and make accurate predictions based on previous inputs.
+
+## Dataset
+
+The dataset consists of sequential or time-based data where the order of data points is important.
+The model uses past values to predict future outcomes.
+
+## Steps Performed
+
+1. Imported required libraries (NumPy, Pandas, TensorFlow/Keras, Matplotlib)
+2. Loaded and explored the dataset
+3. Performed data preprocessing and normalization
+4. Converted data into sequences suitable for RNN input
+5. Split data into training and testing sets
+6. Built an RNN model
+7. Trained the model on sequential data
+8. Evaluated model performance
+
+## Model Used
+
+Recurrent Neural Network (RNN)
+
+## Model Architecture
+
+* Input Layer
+* RNN Layers (SimpleRNN / LSTM / GRU)
+* Dense Output Layer
+
+## Evaluation Metrics
+
+* Loss
+* Accuracy (or appropriate metric based on task)
+
+## Technologies Used
+
+* Python
+* NumPy
+* Pandas
+* TensorFlow / Keras
+* Matplotlib
+
+
+## Conclusion
+
+The RNN model effectively captures sequential dependencies in the data and provides meaningful predictions. This project highlights the importance of sequence modeling in deep learning applications.
+
 
