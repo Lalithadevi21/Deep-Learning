@@ -1,5 +1,5 @@
 # 1.Artificial Neural Network (ANN)
-Concrete Strength Prediction 
+# Concrete Strength Prediction 
 
 ## Project Overview
 
@@ -65,3 +65,64 @@ Artificial Neural Network (ANN)
 ## Conclusion
 
 The ANN model effectively learns the relationship between concrete ingredients and its compressive strength. It provides accurate predictions and demonstrates the power of deep learning for regression problems.
+---
+---
+
+
+# 2.Convolutional Neural Network (CNN)
+# Image Classification 
+
+## Project Overview
+
+This project uses a Convolutional Neural Network (CNN) to classify images into different categories. CNNs are powerful deep learning models widely used for image recognition tasks.
+
+## Problem Statement
+
+To build a deep learning model that can accurately classify images into their respective categories.
+
+## Dataset
+
+The dataset consists of labeled images belonging to different classes.
+Each image is processed and used as input to train the CNN model.
+
+## Steps Performed
+
+1. Imported required libraries (NumPy, Pandas, TensorFlow/Keras, Matplotlib)
+2. Loaded and preprocessed image data
+3. Resized and normalized images
+4. Split data into training and testing sets
+5. Built a CNN model
+6. Trained the model using training data
+7. Evaluated model performance on test data
+8. Visualized results
+
+## Model Used
+
+Convolutional Neural Network (CNN)
+
+## Model Architecture
+
+* Convolutional Layers
+* Activation Functions (ReLU)
+* Pooling Layers (MaxPooling)
+* Flatten Layer
+* Fully Connected (Dense) Layers
+* Output Layer (for classification)
+
+## Evaluation Metrics
+
+* Accuracy
+* Loss
+
+## Technologies Used
+
+* Python
+* NumPy
+* TensorFlow / Keras
+* Matplotlib
+
+
+## Conclusion
+
+The CNN model successfully learns patterns from image data and classifies images with good accuracy. This project demonstrates the effectiveness of deep learning in computer vision tasks.
+
