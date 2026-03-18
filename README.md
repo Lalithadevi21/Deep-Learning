@@ -70,7 +70,7 @@ The ANN model effectively learns the relationship between concrete ingredients a
 
 
 # 2.Convolutional Neural Network (CNN)
-# Image Classification 
+## Image Classification 
 
 ## Project Overview
 
